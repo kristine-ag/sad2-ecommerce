@@ -1,0 +1,441 @@
+.CART {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .CART .div {
+    background-color: #000000;
+    border: 1px none;
+    height: 982px;
+    overflow: hidden;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .CART .line {
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    width: 1512px;
+  }
+  
+  .CART .span {
+    font-weight: 700;
+  }
+  
+  .CART .overlap-group {
+    border-radius: 5px;
+    height: 59px;
+    left: 130px;
+    position: absolute;
+    top: 183px;
+    width: 170px;
+  }
+
+  .CART .text-wrapper-1 {
+    color: #ffffff;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 57px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    white-space: nowrap;
+  }
+  
+  .CART .rectangle-1 {
+    border: 2px solid;
+    border-color: #ea33f3;
+    border-radius: 5px;
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 170px;
+  }
+  
+  .CART .MY-ORDERS {
+    color: white;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 383px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    white-space: nowrap;
+  }
+  
+  .CART .overlap-1 {
+    border-radius: 5px;
+    height: 59px;
+    left: 1283px;
+    position: absolute;
+    top: 792px;
+    width: 170px;
+  }
+  
+  .CART .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    white-space: nowrap;
+  }
+  
+  .CART .rectangle-2 {
+    border: 2px solid;
+    border-color: #ea33f3;
+    border-radius: 5px;
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 155px;
+  }
+  
+  .CART .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 644px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    white-space: nowrap;
+  }
+  
+  .CART .overlap-2 {
+    height: 38px;
+    left: 815px;
+    position: absolute;
+    top: 393px;
+    width: 119px;
+  }
+  
+  .CART .rectangle-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 38px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 113px;
+  }
+  
+  .CART .text-wrapper-4 {
+    color: #fbff54;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 446px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 311px;
+    white-space: nowrap;
+    width: 98px;
+  }
+  
+  .CART .text-wrapper-5 {
+    color: #fbff54;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 853px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 311px;
+    white-space: nowrap;
+    width: 98px;
+  }
+  
+  .CART .text-wrapper-6 {
+    color: #fbff54;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1105px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 314px;
+    white-space: nowrap;
+    width: 98px;
+  }
+  
+  .CART .item-picture {
+    height: 108px;
+    left: 285px;
+    object-fit: cover;
+    position: absolute;
+    top: 354px;
+    width: 109px;
+  }
+  
+  .CART .item-picture-2 {
+    height: 108px;
+    left: 287px;
+    object-fit: cover;
+    position: absolute;
+    top: 574px;
+    width: 109px;
+  }
+  
+  .CART .overlap-group-2 {
+    height: 114px;
+    left: 446px;
+    position: absolute;
+    top: 359px;
+    width: 233px;
+  }
+  
+  .CART .SIGNET-RING-US-RING {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 233px;
+  }
+  
+  .CART .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .CART .text-wrapper-8 {
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .CART .p {
+    color: #ffffff;
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    left: 447px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 477px;
+    width: 327px;
+  }
+  
+  .CART .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 715px;
+    width: 327px;
+  }
+  
+  .CART .NAMEPLATE-NECKLACE {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 571px;
+    width: 233px;
+  }
+  
+  .CART .overlap-4 {
+    height: 38px;
+    left: 817px;
+    position: absolute;
+    top: 613px;
+    width: 119px;
+  }
+  
+  .CART .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1079px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 401px;
+    width: 87px;
+  }
+  
+  .CART .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1081px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 625px;
+    width: 87px;
+  }
+  
+  .CART .success-circle {
+    height: 20px;
+    left: 243px;
+    position: absolute;
+    top: 394px;
+    width: 20px;
+  }
+  
+  .CART .success-circle-2 {
+    height: 10px;
+    left: 245px;
+    position: absolute;
+    top: 623px;
+    width: 20px;
+  }
+  
+  .CART .text-wrapper-12 {
+    color: #fbff54;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 960px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 810px;
+    white-space: nowrap;
+    width: 113px;
+  }
+  
+  .CART .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 1082px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 807px;
+    white-space: nowrap;
+  }
+  
+  .CART .line-2 {
+    height: 1px;
+    left: 118px;
+    position: absolute;
+    top: 514px;
+    width: 1272px;
+  }
+
+  .CART .button {
+    background-color: black;
+    border: 2px solid #EA33F3;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+/* .cart-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item-picture {
+  height: 108px;
+  width: 109px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.item-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.decrement-button,
+.increment-button {
+  background-color: black;
+  border: 2px solid #EA33F3;
+  border-radius: 50%;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.count-display {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.subtotal {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 5px;
+} */
