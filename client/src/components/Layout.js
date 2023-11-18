@@ -1,15 +1,19 @@
+import React, { useState } from "react";
 import Nav from "./Nav";
-import { useState } from "react";
 import Logo from "./Logo";
 import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Layout({ children }) {
   const [showNav, setShowNav] = useState(false);
 
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };
+
   return (
     <div className="bg-white min-h-screen ">
       <div className="block md:hidden flex items-center justify-center p-4">
-        <button onClick={() => setShowNav(true)}>
+        <button className="md:hidden" onClick={toggleNav}>
           <AiOutlineMenu />
         </button>
 
@@ -19,7 +23,7 @@ export default function Layout({ children }) {
       </div>
 
       <div className="flex">
-        <Nav show={showNav} />
+        <Nav show={showNav} toggleNav={toggleNav} />
         <div className="flex-grow p-5">{children}</div>
       </div>
     </div>
